@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    position: absolute;
+    width: 470px;
+    height: 402px;
+    left: 24px;
+    top: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.rectangle{
+    width: 470px;
+    height: 402px;
+    left: 24px;
+    top: 24px;
+    background: #FFFFFF;
+    /* Gray */
+
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+}
+
+/* Estilos para la imagen*/
+.banner_image{
+    width: 470px;
+    height: 140px;
+    left: 24px;
+    top: 24px;
+}
+    .rectangle_image{
+        width: 470px;
+        height: 154px;
+        left: 24px;
+        top: 24px;
+
+        background: #C4C4C4;
+        border-radius: 16px 15px 0px 0px;
+        overflow: hidden;
+    }
+    .rectangle_image img{
+        width: 470px;
+        height: 248px;
+        left: 24px;
+        top: 2px;
+        border-radius: 8px;
+        background: url(zhIN9PGes9DNM2LZQwC1w7+AczDbOzNUPtSKPSMVzIeNpYj6YmC_mHUBBKSm4YNv61_uujv+g7aU0IWm9E225Ba72J0DTXzPnON5xWmMD1aEvR0jwHUwB_UjvXk81C1Rm5BmClzmtF+QQOwZ+Pn9Ziw50RtpfK4t1iZyvYMIOEHGp73DsqxlWOQNIDd6RiZSfOpTmwI1x5PW3o2r6BUjE55LU.jpg);
+
+    }
+    
+.banner_title{
+    position: absolute;
+    width: 131px;
+    height: 32px;
+    left: 48px;
+    top: 112px;
+}
+    .title_rectangle{
+        position: fixed;
+        width: 131px;
+        height: 29px;
+        left: 48px;
+        top: 146px;
+
+        /* Gray_BLue */
+
+        background: #F8FAFF;
+        border-radius: 8px;
+        
+    }
+    .title_text{
+        position: fixed;
+        width: 85px;
+        height: 18px;
+        left: 72px;
+        top: 153px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        /* Dark blue */
+
+        color: #020841;
+    }
+
+.banner_description{
+    position: fixed;
+    width: 422px;
+    height: 214px;
+    left: 48px;
+    top: 188px;
+    display: flex;
+    flex-direction: column;
+}
+    .content_description{
+        width: 422px;
+        height: 161px;
+        left: 48px;
+        top: 188px;
+    }
+    .me_interesa p{
+        width: 107px;
+        height: 29px;
+        left: 48px;
+        top: 373px;
+
+        /* Bodytext_Semibold_2 */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 29px;
+        /* identical to box height, or 161% */
+
+
+        /* French blue */
+
+        color: #104DE5;
+    }
